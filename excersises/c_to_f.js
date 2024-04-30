@@ -1,24 +1,24 @@
 "use strict";
 
-function result(celsiusTemperature) {
+function convertCtoF(celsiusTemperature) {
   var fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
   return fahrenheitTemperature;
 }
 
-var resultCaught = result(100);
-console.log(resultCaught);
+var convertCtoFCaught = convertCtoF(100);
+console.log(convertCtoFCaught);
 
-var resultCaught = result(45);
-console.log(resultCaught);
+var convertCtoFCaught = convertCtoF(45);
+console.log(convertCtoFCaught);
 
-var resultCaught = result(19);
-console.log(resultCaught);
+var convertCtoFCaught = convertCtoF(19);
+console.log(convertCtoFCaught);
 
-var resultCaught = result(0);
-console.log(resultCaught);
+var convertCtoFCaught = convertCtoF(0);
+console.log(convertCtoFCaught);
 
-var resultCaught = result(-7);
-console.log(resultCaught);
+var convertCtoFCaught = convertCtoF(-7);
+console.log(convertCtoFCaught);
 
-var resultCaught = result(-40);
-console.log(resultCaught);
+var convertCtoFCaught = convertCtoF(-40);
+console.log(convertCtoFCaught);

@@ -1,24 +1,24 @@
 "use strict";
 
-function result(fahrenheitTemperature) {
+function convertFtoC(fahrenheitTemperature) {
   var celsiusTempature = ((fahrenheitTemperature - 32) * 5) / 9;
   return celsiusTempature;
 }
 
-var resultCaught = result(212);
-console.log(resultCaught);
+var convertFtoCCaught = convertFtoC(212);
+console.log(convertFtoCCaught);
 
-var resultCaught = result(90);
-console.log(resultCaught);
+var convertFtoCCaught = convertFtoC(90);
+console.log(convertFtoCCaught);
 
-var resultCaught = result(72);
-console.log(resultCaught);
+var convertFtoCCaught = convertFtoC(72);
+console.log(convertFtoCCaught);
 
-var resultCaught = result(32);
-console.log(resultCaught);
+var convertFtoCCaught = convertFtoC(32);
+console.log(convertFtoCCaught);
 
-var resultCaught = result(0);
-console.log(resultCaught);
+var convertFtoCCaught = convertFtoC(0);
+console.log(convertFtoCCaught);
 
-var resultCaught = result(-40);
-console.log(resultCaught);
+var convertFtoCCaught = convertFtoC(-40);
+console.log(convertFtoCCaught);
